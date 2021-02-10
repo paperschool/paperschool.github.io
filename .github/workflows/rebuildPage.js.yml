@@ -6,8 +6,9 @@ name: Node.js CI
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    tags-ignore:
+      - "pages-bot-page-build"
+    
 
 jobs:
   build:
@@ -19,9 +20,22 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
+    - name: setup git config
+    - run: |
+          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
+          git config user.name "Github Pages Builder Bot"
+          git config user.email "<>"
+      
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    
     - run: yarn run ci
+    
+    - name: commit built code
+    - run: |
+          # Stage the file, commit and push
+          git add .
+          git commit -m "pages bot: building page $(date)"
+          git tag "pages-bot-page-build"
+          git push origin main
