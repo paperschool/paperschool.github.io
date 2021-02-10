@@ -7,11 +7,11 @@ const PORT = 3000;
 
 const documentLocation = path.resolve(__dirname,"../../docs/index.html");
 
-const document = fs.readFileSync(documentLocation,"utf-8");
-
 app.use(express.static(path.dirname(documentLocation)))
+app.use(express.static(path.resolve(path.dirname(documentLocation),"docs")))
 
-app.get("/", (req,res) => {
+app.get("*", (req,res) => {
+    const document = fs.readFileSync(documentLocation,"utf-8");
     res.send(document);
 })
 
