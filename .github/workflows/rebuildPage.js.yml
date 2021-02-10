@@ -25,6 +25,8 @@ jobs:
           git config user.name "Github Pages Builder Bot"
           git config user.email "<>"
           git checkout -B pages
+          # remove docs ignore so we can commit the change
+          sed -i "/docs\//d" .gitignore
       
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
