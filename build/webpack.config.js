@@ -10,7 +10,7 @@ module.exports = (env, { mode }) => {
         entry: "./app/client/index.tsx",
         output: {
             filename: '[name].[chunkhash:4].js',
-            path: path.resolve(__dirname, '../bin/'),
+            path: path.resolve(__dirname, '../docs/'),
             publicPath: ''
         },
         mode: isProduction ? 'production' : 'development',

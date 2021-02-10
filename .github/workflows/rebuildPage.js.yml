@@ -33,11 +33,15 @@ jobs:
       
     - name: Build Page
       run: yarn run ci
+
+    - name: Cleanup Pages Branch
+      run: |
+          rm -rf app build dev node_modules .babelrc .gitignore package.json README.md tsconfig.json yarn.lock
     
     - name: Store Built Page
       run: |
           # Stage the file, commit and push
           git add .
-          git commit -m "pages bot: building page $(date)"
+          git commit -m "pages bot: cleaning branch and building page $(date)"
           git tag "pages-bot-page-build"
-          git push origin pages
+          git push -f origin pages
