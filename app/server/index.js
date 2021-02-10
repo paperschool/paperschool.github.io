@@ -5,7 +5,7 @@ const app = express()
 
 const PORT = 3000;
 
-const documentLocation = path.resolve(__dirname,"../../bin/index.html");
+const documentLocation = path.resolve(__dirname,"../../docs/index.html");
 
 const document = fs.readFileSync(documentLocation,"utf-8");
 
