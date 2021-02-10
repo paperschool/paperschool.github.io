@@ -4,5 +4,15 @@ const version = `${(process.env.GITHUB_RUN_ID || "local")}-${new Date().toISOStr
 module.exports = new htmlWebpackPlugin({
         title: 'Bloggy Blog',
         template: './app/client/index.html',
-        version
+        version,
+        minify: {
+            collapseWhitespace: true,
+            keepClosingSlash: true,
+            removeComments: false,
+            removeRedundantAttributes: true,
+            removeScriptTypeAttributes: true,
+            removeStyleLinkTypeAttributes: true,
+            useShortDoctype: true
+        }
+
     });
