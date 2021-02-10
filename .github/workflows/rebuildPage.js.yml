@@ -20,11 +20,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
       
-    - name: setup git config
+    - name: Setup Git
       run: |
-          # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
           git config user.name "Github Pages Builder Bot"
           git config user.email "<>"
+          git checkout -B pages
       
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v1
@@ -34,10 +34,10 @@ jobs:
     - name: Build Page
       run: yarn run ci
     
-    - name: commit built code
+    - name: Store Built Page
       run: |
           # Stage the file, commit and push
           git add .
           git commit -m "pages bot: building page $(date)"
           git tag "pages-bot-page-build"
-          git push origin main
+          git push origin pages
