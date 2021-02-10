@@ -1,0 +1,34 @@
+{
+  "Inter-Regular.woff2": {
+    "src": "73628146f38a715d2f6d446c4373cc1c.woff2",
+    "integrity": "sha256-2LlWZ2r9BOi6iPBz3pXTYKGTtd4wFiK0bztk8BNDUUs="
+  },
+  "index.html": {
+    "src": "index.html",
+    "integrity": "sha256-78X4foiOoohptr+VYSKj65mhZ5ksjUWlRd4mmIFy+28="
+  },
+  "main.bd64.js.map": {
+    "src": "main.bd64.js.map",
+    "integrity": "sha256-JJkrdCiBO7sGA/XG5Jqy5bDNcZpC07q6HN9esWfS8jc="
+  },
+  "main.css": {
+    "src": "main.464e8befe3dfa2d2d3ae.css",
+    "integrity": "sha256-L8I7KgqRyeQCgq9hfFvMYd47f9eEBtT0BK1I+MPjKA4="
+  },
+  "main.js": {
+    "src": "main.bd64.js",
+    "integrity": "sha256-hTsyu274RTOOa1ArfXCX9T4Hk/xVvH9xhkL35FpVUF4="
+  },
+  "vendor.c9f8.js.LICENSE.txt": {
+    "src": "vendor.c9f8.js.LICENSE.txt",
+    "integrity": "sha256-oZNyvjW0VIEXfONp0QKQvZCo1Zy1vmlCpBboZsH0Hh8="
+  },
+  "vendor.c9f8.js.map": {
+    "src": "vendor.c9f8.js.map",
+    "integrity": "sha256-ckIh8B8n8DhkQwj6exhVVcosoxN+q7G1fDGu+v5knMs="
+  },
+  "vendor.js": {
+    "src": "vendor.c9f8.js",
+    "integrity": "sha256-f1AixS4CJpZdMd4qwJviWL1vNJRHSgBE6qzsQSmZ6NE="
+  }
+}
