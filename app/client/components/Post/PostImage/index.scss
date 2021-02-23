@@ -1,0 +1,12 @@
+@import "../../../styles/colours.scss";
+
+.postImageContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+.postImage {
+    width: 100%;
+}

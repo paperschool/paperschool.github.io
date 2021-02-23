@@ -1,10 +1,18 @@
 import React, { FunctionComponent } from "react";
 import Header from "../Header";
-import { home } from "./index.scss";
+import Posts from "../Posts";
+import Canvas from "../Canvas";
+import { home, postContainer } from "./index.scss";
 
 const Home: FunctionComponent = () => {
-    return <div className={home}>
-        <Header/>
+    return <div>
+        <Canvas/>
+        <div className={home}>
+            <Header/>
+            {/* <div className={postContainer}>
+                <Posts />
+            </div> */}
+        </div>
     </div>
 }
 

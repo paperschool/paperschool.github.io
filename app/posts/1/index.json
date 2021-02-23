@@ -1,14 +1,16 @@
 {
     "title":"oh look at me go",
     "date": "1612987246548",
-    "content": [
+    "contents": [
         {
             "type": "paragraph",
             "content": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro accusantium illo odit, optio minima  reiciendis fugit cumque error magni qui molestiae sunt temporibus placeat dolores nobis minus. Aperiam, quae non?"
         },
         {
             "type": "image",
-            "src": "image_1.jpg"
+            "content": [
+                "image_1.jpg"
+            ]
         },
         {
             "type": "paragraph",
