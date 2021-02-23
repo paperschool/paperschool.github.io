@@ -1,0 +1,42 @@
+{
+  "Inter-Regular.woff2": {
+    "src": "73628146f38a715d2f6d446c4373cc1c.woff2",
+    "integrity": "sha256-2LlWZ2r9BOi6iPBz3pXTYKGTtd4wFiK0bztk8BNDUUs="
+  },
+  "global.scss": {
+    "src": "73628146f38a715d2f6d446c4373cc1c.woff2",
+    "integrity": "sha256-2LlWZ2r9BOi6iPBz3pXTYKGTtd4wFiK0bztk8BNDUUs="
+  },
+  "index.html": {
+    "src": "index.html",
+    "integrity": "sha256-3flDp8F2z2DlDqGe7FV4GFulz3A/cOSlvPuPtGQFjsw="
+  },
+  "main.1b519e4463331e07aa41.css.map": {
+    "src": "main.1b519e4463331e07aa41.css.map",
+    "integrity": "sha256-OCD0BuYvD5AV2s8+dbSB23vF3bN5cV4+xA6aFRbcI1A="
+  },
+  "main.css": {
+    "src": "main.1b519e4463331e07aa41.css",
+    "integrity": "sha256-xnU9bFgpgPXYq5/AS+k1WEtqr5Z84Gc73khK658H3+g="
+  },
+  "main.f7a2.js.map": {
+    "src": "main.f7a2.js.map",
+    "integrity": "sha256-WuKv9sOeOHzE5KrJp1GXIa9NJRHIi9B36+pswqgS5zo="
+  },
+  "main.js": {
+    "src": "main.f7a2.js",
+    "integrity": "sha256-q1+Anq8Sb8fZnlBoXtgESOHEl2dFMqd4UzhYaILxjys="
+  },
+  "vendor.0d8a.js.LICENSE.txt": {
+    "src": "vendor.0d8a.js.LICENSE.txt",
+    "integrity": "sha256-oZNyvjW0VIEXfONp0QKQvZCo1Zy1vmlCpBboZsH0Hh8="
+  },
+  "vendor.0d8a.js.map": {
+    "src": "vendor.0d8a.js.map",
+    "integrity": "sha256-IJ4PrWncsbVAfqXx8wK0rl/AVBy9Pwy9fup8Iml5/8s="
+  },
+  "vendor.js": {
+    "src": "vendor.0d8a.js",
+    "integrity": "sha256-DBT68u8xjnfobkfnHvzT1VxSOsZ+4hg5N5hxu3IQQDI="
+  }
+}
